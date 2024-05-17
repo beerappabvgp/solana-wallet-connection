@@ -22,7 +22,7 @@ import { StudentIntroCoordinator } from "../../scripts/serialize/StudentIntroCoo
     know which account(s) to read from
 */
 
-const Finished: FC = () => {
+const Starter: FC = () => {
   // REACT VARIABLES
   const [name, setName] = React.useState("");
   const [thoughts, setThoughts] = React.useState("");
@@ -227,4 +227,4 @@ const Finished: FC = () => {
   );
 };
 
-export default Finished;
+export default Starter;
